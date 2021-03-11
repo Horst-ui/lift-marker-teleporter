@@ -1,5 +1,5 @@
 # lift-marker-teleporter
-Let you make a marker Teleporter which is perfect for lifts. You can config, if the vehicle your sitting in got teleported with you and if only a specific Job can use the lift.
+Let you make a marker Teleporter which is perfect for lifts. You can config, if the vehicle your sitting in got teleported with you and if only a specific Job can use the lift. And some other stuff...
 
 **Installation**
     
