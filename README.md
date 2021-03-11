@@ -4,7 +4,7 @@ Let you make a marker Teleporter which is perfect for lifts. You can config, if 
 **Installation**
     
     Put it in your resource folder and add this to your server.cfg:
-      "start EasyMarkerTeleporter"
+      "start lift-marker-teleporter"
 
 **Configuration**
     
