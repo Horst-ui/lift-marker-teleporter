@@ -1,2 +1,15 @@
 # lift-marker-teleporter
-Let you make a marker Teleporter which is scripted for lifts. Theres also the option to teleport vehicles or give a Job the right to see the lift
+Let you make a marker Teleporter which is perfect for lifts. You can config, if the vehicle your sitting in got teleported with you and if only a specific Job can use the lift.
+
+**Installation**
+    
+    Put it in your resource folder and add this to your server.cfg:
+      "start EasyMarkerTeleporter"
+
+**Configuration**
+    
+    Its designed, that you can handle all in the config.lua should be easy to understand
+  
+
+-------------------------
+Discord: Horst#6525
