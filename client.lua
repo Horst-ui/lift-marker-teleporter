@@ -112,10 +112,10 @@ Citizen.CreateThread(function()
          
           end
         end
-          if isInMarker and not ESX.UI.Menu.IsOpen('default', GetCurrentResourceName(), 'teleport') and position2.works then
+          if isInMarker and not ESX.UI.Menu.IsOpen('default', GetCurrentResourceName(), 'teleport_actions') and position2.works then
            
             ESX.UI.Menu.Open(
-                'default', GetCurrentResourceName(), 'teleport',
+                'default', GetCurrentResourceName(), 'teleport_actions',
                    {
                     title    = zone.Name,
                     align    = 'top-right',
@@ -146,10 +146,10 @@ Citizen.CreateThread(function()
                   CurrentActionData = {}
             end)
 
-          elseif isInMarker and not ESX.UI.Menu.IsOpen('default', GetCurrentResourceName(), 'teleport') then
+          elseif isInMarker and not ESX.UI.Menu.IsOpen('default', GetCurrentResourceName(), 'teleport_actions') then
 
             ESX.UI.Menu.Open(
-                'default', GetCurrentResourceName(), 'teleport',
+                'default', GetCurrentResourceName(), 'teleport_actions',
                    {
                     title    = zone.Name,
                     align    = 'top-right',
@@ -172,13 +172,14 @@ Citizen.CreateThread(function()
                   CurrentActionData = {}
             end)
 
-          elseif not isInMarker then
+          elseif not isInMarker and ESX.UI.Menu.IsOpen('default', GetCurrentResourceName(), 'teleport_actions') then
 
             ESX.UI.Menu.CloseAll()
 
           end
       end
 end)
+
 
 
 
